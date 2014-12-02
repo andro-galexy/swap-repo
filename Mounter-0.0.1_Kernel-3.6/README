@@ -3,7 +3,7 @@
 ###Developer&Maintainer: Swapnil J. Udapure###
 ###Repository: https://github.com/swapgit/swap-repo###
 ###E-mail: swapnil.udapure5@gmail.com###
-###Descrition: This application is used to protect hard disk partion from direct mouting by the user; hence every time the user attempts to mount any partition; the dialog will be showned to enter the correct password for the mounting partition respectively. The application is some what simmilar to Bit-Locker program of Windows System. With the help of this application the user can maintain different passwords for different drives/partitions respectively.###
+###Descrition: This application is used to protect hard disk partion from direct mouting by the user; hence evry time the user attempts to mount any partition; the dialog will be showned to enter the correct password for the mounting partition respectively. The application is some what simmilar to Bit-Locker program of Windows System. With the help of this application the user can maintain different passwords for different drives/partitions respectively.###
 
 ###depending on your distribution kernel version you must download the appropriate source from the repository;if you are using kernel version lower than 3.6 then download Mounter-0.0.1_Kernel-3.6; for kernel higher than 3.6 use Mounter-0.0.1_Kernel-High respectively.
 Also the given application is only applicable with 32-bit Linux system; for those who are using 64-bit then they have to wait for next realese of the program; thank you.### 
