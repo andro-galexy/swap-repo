@@ -65,9 +65,9 @@ STEP-4:
 ##After the application deployed the user can change or apply password to every individual partition of the system this can be done by using the following command...
 ##Common Usage for the command is:
 Usage : 
-    sudo mounter [-n] <Partition_Name> [-p] <Password> 
+    sudo mounter -n <partition> -p <Password> 
 
-##For removing modules...##
+##For removing Kernel modules...##
 
     sudo make remove
 
