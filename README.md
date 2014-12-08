@@ -50,7 +50,7 @@ STEP-3:
 
     sudo make insert
 
-##above command will insert both kernel module...
+##above command will insert both kernel modules...
 
 ##For running java program...##
 
