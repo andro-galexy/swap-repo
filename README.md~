@@ -15,7 +15,7 @@ Depending on your Linux distribution kernel version; you must download the appro
 Also the given application is only applicable with 32-bit Linux system; for those who are using 64-bit then they have to wait for next realese of the program; thank you.
 
 
-This application comes in two parts kernel modules which handles the low level task of mounting partitions; and high level program which is completely made in java; hence JRE(Open-jdh-1.7.0) must installed in order to use this application.. 
+This application comes in two parts kernel modules which handles the low level task of mounting partitions; and high level program which is completely made in java; hence JRE(Open-jdk-1.7.0) must installed in order to use this application.. 
  
 ##This README explains the general usage information for using the makefile...##
 Mounter Application & Kernel Module Makefile Infomation...
@@ -50,7 +50,7 @@ STEP-3:
 
     sudo make insert
 
-##above command will insert both kernel module...
+##above command will insert both kernel modules...
 
 ##For running java program...##
 
@@ -65,9 +65,9 @@ STEP-4:
 ##After the application deployed the user can change or apply password to every individual partition of the system this can be done by using the following command...
 ##Common Usage for the command is:
 Usage : 
-    sudo mounter [-n] <Partition_Name> [-p] <Password> 
+    sudo mounter -n <partition> -p <Password> 
 
-##For removing modules...##
+##For removing Kernel modules...##
 
     sudo make remove
 
