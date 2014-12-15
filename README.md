@@ -44,6 +44,12 @@ STEP-2:
 
 *NOTE:Here one think to consider, the builded kernel modules are not going to be deployed/installed by defualt this is because the method for LKM installation varies from one distribution to another distribution; hence you need to manually install the kernel modules manually every time after the system boots, sorry for this inconvinience.*
 
+##After the application deployed the user can change or apply password to every individual partition of the system this can be done by using the following command...
+##Common Usage for the command is:
+
+    sudo make mounter -n <partition> -p <password>
+    
+
 ##For Inserting Kernel module...##
 
 STEP-3: 
@@ -61,11 +67,6 @@ STEP-4:
 
 *NOTE:here note the above command / the java application must be run after the kernel modules inserted...*
 
-
-##After the application deployed the user can change or apply password to every individual partition of the system this can be done by using the following command...
-##Common Usage for the command is:
-
-    sudo make mounter -n <partition> -p <password>
 
 ##For removing Kernel modules...##
 
