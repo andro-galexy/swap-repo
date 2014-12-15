@@ -15,7 +15,7 @@ Depending on your Linux distribution kernel version; you must download the appro
 Also the given application is only applicable with 32-bit Linux system; for those who are using 64-bit then they have to wait for next realese of the program; thank you.
 
 
-This application comes in two parts kernel modules which handles the low level task of mounting partitions; and high level program which is completely made in java; hence JRE(Open-jdk-1.7.0) must installed in order to use this application.. 
+This application comes in two parts kernel modules which handles the low level task of mounting partitions; and high level program which is completely made in java; hence JRE(Open-jdk-1.7.0) must installed in order to use this application. The application is in beta version; hence there are several bugs in the program. Any changes or contribution to the project is welcome, it is open source and freeware. The application here is not a complete full fledged application so use it on your own risk, Thank You...
  
 ##This README explains the general usage information for using the makefile...##
 Mounter Application & Kernel Module Makefile Infomation...
