@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Mounter
+Exec=/usr/local/bin/Mounter.jar
+X-GNOME-Autostart-enabled=true
+
