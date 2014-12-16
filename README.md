@@ -15,7 +15,7 @@ Depending on your Linux distribution kernel version; you must download the appro
 Also the given application is only applicable with 32-bit Linux system; for those who are using 64-bit then they have to wait for next realese of the program; thank you.
 
 
-This application comes in two parts kernel modules which handles the low level task of mounting partitions; and high level program which is completely made in java; hence JRE(Open-jdk-1.7.0) must installed in order to use this application.. 
+This application comes in two parts kernel modules which handles the low level task of mounting partitions; and high level program which is completely made in java; hence JRE(Open-jdk-1.7.0) must installed in order to use this application. The application is in beta version; hence there are several bugs in the program. Any changes or contribution to the project is welcome, it is open source and freeware. The application here is not a complete full fledged application so use it on your own risk, Thank You...
  
 ##This README explains the general usage information for using the makefile...##
 Mounter Application & Kernel Module Makefile Infomation...
@@ -44,6 +44,12 @@ STEP-2:
 
 *NOTE:Here one think to consider, the builded kernel modules are not going to be deployed/installed by defualt this is because the method for LKM installation varies from one distribution to another distribution; hence you need to manually install the kernel modules manually every time after the system boots, sorry for this inconvinience.*
 
+##After the application deployed the user can change or apply password to every individual partition of the system this can be done by using the following command...
+##Common Usage for the command is:
+
+    sudo make mounter -n <partition> -p <password>
+    
+
 ##For Inserting Kernel module...##
 
 STEP-3: 
@@ -61,10 +67,6 @@ STEP-4:
 
 *NOTE:here note the above command / the java application must be run after the kernel modules inserted...*
 
-
-##After the application deployed the user can change or apply password to every individual partition of the system this can be done by using the following command...
-##Common Usage for the command is:
-Usage : sudo mounter -n <partition> -p <Password> 
 
 ##For removing Kernel modules...##
 
